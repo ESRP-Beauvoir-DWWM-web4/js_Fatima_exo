@@ -144,10 +144,9 @@ console.log(str3);
 Afficher dans la console grâce à une méthode le nombre de caractères contenu dans la variable "txt1"
 */
 
-let txt1 = "Bonjour et bienvenue sur les exercices"
-
+const txt1 = "Bonjour et bienvenue sur les exercices"
+console.log(`${txt1} ${txt1.length}`);
 // -------------------------- Exercice 10 -------------------------
-
 /*
 Afficher dans la console le type de la variable "a"
 */
